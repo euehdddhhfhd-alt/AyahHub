@@ -1,0 +1,18 @@
+# ads.txt for QuranGo Website
+# Replace the example publisher IDs with your real IDs and remove any rows you don't use.
+# Format: <domain>, <publisher id>, <account/relationship type>, <cert authority id (optional)>
+
+# Google AdSense (active record):
+google.com, pub-2491298111552226, DIRECT, f08c47fec0942fa0
+
+# Google Ad Manager / reseller example:
+# google.com, pub-YYYYYYYYYYYYYYYY, RESELLER, f08c47fec0942fa0
+
+# Example for other networks (replace with real values if applicable):
+# appnexus.com, 12345, DIRECT
+# openx.com, 67890, RESELLER
+
+# Notes:
+# - Save this file at the site root so it's reachable at https://yourdomain/ads.txt
+# - After deployment, verify by opening the above URL and by checking your ad network's verification tools.
+# - Remove the comment lines and keep only the active records if you prefer a minimal file.
